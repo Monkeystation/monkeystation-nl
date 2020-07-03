@@ -1,0 +1,119 @@
+
+
+html {
+  height: 100%;
+  font-size: 100%;
+}
+
+
+body {
+  height: 100%;
+  background-color: #0d0d0d;
+  color: #F9F9F8;
+  font-family: 'Muli', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a, a:hover, cite {
+  color: #8db2c1;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+h6 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #8db2c1;
+  margin-bottom: 0px;
+}
+
+h6.subtitle {
+  text-transform: none;
+}
+
+.btn-outline-secondary { 
+  color: #8db2c1;
+  border-color: #8db2c1;
+}
+
+.btn-outline-secondary:hover { 
+  background-color: #8db2c1;
+  border-color: #8db2c1;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a.btn {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.container-fluid {
+  height: 100%;
+}
+
+.row {
+  height: 100%;
+}
+
+.me-image-col {
+  padding: 0;
+  height: 100%;
+}
+
+.me-image {
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/me.jpg);
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+}
+
+.text-col {
+  padding: 30px 70px;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.btn-linkedin {
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 1199px) {
+  .text-col {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .text-col {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .text-col {
+    padding: 0 20px 30px 20px;
+    height: auto;
+  }
+  
+  .me-image-col { 
+    height: calc(100% - 78px); 
+  }
+  
+  .header {
+    text-align: center;
+    padding: 10px 0 0 0;
+  }
+  
+}
